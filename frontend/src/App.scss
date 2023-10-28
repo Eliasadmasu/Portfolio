@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&family=Nosifer&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.DesktopApp {
+  width: 100%;
+  height: auto;
+  display: flex;
+  .navCont {
+    width: 2.9rem;
+  }
+
+  .main {
+    width: 100%;
+    position: relative;
+  }
+
+  // !App
+}
+.MobileApp {
+  width: 100%;
+  height: auto;
+
+  .main {
+    width: 100%;
+    position: relative;
+  }
+
+  // !App
+}

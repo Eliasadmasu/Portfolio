@@ -1,0 +1,99 @@
+.ContactWrapeer {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgb(28, 38, 53) 4.17%, #0f1216 81.25%);
+  background-color: aquamarine;
+  display: flex;
+  overflow: hidden;
+
+  & > div {
+    width: 100%;
+    height: 100%;
+  }
+  .contactLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .getInTouch {
+      color: #fff;
+      //   margin-left: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      font-family: New Rocker;
+      font-size: 64px;
+    }
+    .emailPhoneAdressCont {
+      padding: 20px;
+      .SecondaryTxtContact {
+        color: white;
+        font-size: 16;
+        font-family: "Poppins";
+        word-wrap: break-word;
+      }
+      .mainTxtContact {
+        color: #00f0ff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    .getInTouchP {
+      padding: 10px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 17px;
+      line-height: 35px;
+    }
+  }
+  .contactRight {
+    .socialMeadiaPCont {
+      padding: 20px;
+      .SMLogosCont {
+        margin-top: 30px;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        & > a {
+          cursor: pointer;
+        }
+        & > a > svg {
+          color: #00adb5;
+          width: 100%;
+          height: 100%;
+          &:hover {
+            color: #00f2ff;
+          }
+        }
+      }
+    }
+    .SMCont {
+      display: flex;
+      flex-direction: column;
+      .SM {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 23px;
+      }
+      .SMparaG {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 20px;
+        line-height: 35px;
+      }
+    }
+  }
+}
+@media (min-width: 268px) and (max-width: 860px) {
+  /* CSS styles for medium devices */
+  .ContactWrapeer {
+    background-color: aqua;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
